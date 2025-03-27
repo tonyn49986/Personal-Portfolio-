@@ -22,9 +22,8 @@ body {
 }
 
 nav {
-    max-width: 1200px;
+    max-width: 2000px;
     margin: auto;
-    padding: 2rem 1rem;
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -96,4 +95,99 @@ nav {
  
  .reg-btn:hover{
      background-color: rgb(95, 190, 0);
+ }
+
+ .container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+    
+ }
+
+ header{
+position: relative;
+padding-top: 2rem;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+align-items: center;
+gap: 2rem;
+
+ }
+
+ header .content h4{
+    margin-bottom: 1rem;
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 600;
+ }
+
+ header .content h1{
+    margin-bottom: 3rem;
+    color: #ffff;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 4rem;
+ }
+
+
+ header .content p{
+    margin-bottom: 3rem;
+    color: #ffff;
+
+ }
+
+ section .header{
+    margin-bottom: 1rem;
+    color: #ffff;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+ }
+
+ .sub-header{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: #ffff;
+ }
+
+ .careers {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+ }
+
+ .careers .card{
+padding: 3rem 2rem;
+background-color: #ffff;
+display: flex;
+flex-direction: column;
+border: 2px solid transparent;
+border-radius: 15px;
+transition: all 0.3s ease;
+ }
+
+ .careers .card:hover{
+    background-color: rgb(211, 211, 211);
+    color: #0a1322;
+ }
+
+ .careers .card .content{
+    flex: 1;
+    margin-bottom: 2rem;
+ }
+
+ .careers .card h5{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+ }
+
+ .careers .card h4{
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 2px dashed #0a1322;
  }
